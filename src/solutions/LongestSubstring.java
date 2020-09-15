@@ -1,3 +1,4 @@
+package solutions;
 import java.util.HashSet;
 
 public class LongestSubstring {

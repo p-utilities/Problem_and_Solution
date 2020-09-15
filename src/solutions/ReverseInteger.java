@@ -1,3 +1,4 @@
+package solutions;
 
 public class ReverseInteger {
 	public static int reverse(int x) {

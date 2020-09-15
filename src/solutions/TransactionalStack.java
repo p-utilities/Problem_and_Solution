@@ -1,3 +1,4 @@
+package solutions;
 public class TransactionalStack<T> {
 	private T[] stack;
 	private int top = -1;
