@@ -64,11 +64,15 @@ public class AddTwoNumbers {
 	}
 
 	public static void main(String[] args) {
-		ListNode l1 = new ListNode();
-		l1 = addTwoNumbers(new ListNode(1), new ListNode(9, new ListNode(9)));
-		while (l1 != null) {
-			System.out.println(l1.val);
-			l1 = l1.next;
-		}
+//		ListNode l1 = new ListNode();
+//		l1 = addTwoNumbers(new ListNode(1), new ListNode(9, new ListNode(9)));
+//		while (l1 != null) {
+//			System.out.println(l1.val);
+//			l1 = l1.next;
+//		}
+		
+		
+		String s = "s";
+		Integer.parseInt(s);
 	}
 }
