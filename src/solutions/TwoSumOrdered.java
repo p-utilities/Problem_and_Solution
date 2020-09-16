@@ -12,8 +12,8 @@ package solutions;
  * <p>
  * Output: [1,2]
  * <p>
- * - integer on index 1 and index 2 sum up to target. Return value is indexes of
- * values in array that sum up to the target value.
+ * <b>Explanation : </b> integer on index 1 and index 2 sum up to target. Return
+ * value is indexes of values in array that sum up to the target value.
  * <p>
  * <b>Solution</b> : I used two variables with values 0 and length of array - 1
  * that represent left and right point of the array. In each iteration, if sum
@@ -25,6 +25,14 @@ package solutions;
  * <p>
  * If there is not values in an array that sum up to the target value, return
  * will be empty array of integers.
+ * <p>
+ * <b>Time complexity : </b> in the worst case, time complexity is O(n) since
+ * every value should be visited. In average case, this solution should have
+ * time complexity O(log n).
+ * <p>
+ * <b>Space complexity : </b> using this solution, space complexity is O(1) or
+ * constant.
+ * 
  */
 public class TwoSumOrdered {
 	public static int[] twoSumOrdered(int[] nums, int target) {

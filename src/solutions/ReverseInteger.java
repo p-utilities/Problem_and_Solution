@@ -1,5 +1,22 @@
 package solutions;
 
+/**
+ * <b>Problem :</b> Given a 32-bit signed integer, reverse digits of an integer.
+ * <p>
+ * <b>Example</b>
+ * <p>
+ * Input: 123
+ * <p>
+ * Output: 321
+ * <p>
+ * <b>Solution : </b> The solution is made by using strings and reversing the
+ * string.
+ * <p>
+ * <b>Time complexity : </b> O(n)
+ * <p>
+ * <b>Space complexity : </b> O(n)
+ *
+ */
 public class ReverseInteger {
 	public static int reverse(int x) {
 		boolean isPositive = true;
@@ -15,11 +32,12 @@ public class ReverseInteger {
 			stringResult += helper.charAt(i);
 		}
 		int result = 0;
-		
+
 		try {
 			result = Integer.parseInt(stringResult);
-		} catch (NumberFormatException e) {}
-		
+		} catch (NumberFormatException e) {
+		}
+
 		if (!isPositive)
 			result = -result;
 

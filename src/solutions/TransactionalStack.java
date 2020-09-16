@@ -1,4 +1,33 @@
 package solutions;
+
+/**
+ * <b>Problem :</b> Write a class Solution that implements a stack data
+ * structure. The data structure will hold positive integers within the range
+ * [1...1000000000] and should implement the following stack operations:
+ * <p>
+ * - push(value): Pushes an element value to the stack. - top(): Returns the
+ * topmost element(without removing it from the stack), or 0 if the stack is
+ * empty. - pop(): Removes the topmost element from the stack, or does nothing
+ * if the stack is empty.
+ * <p>
+ * In addition to the above operations, the stack should also support
+ * transactions by implementing the following operations:
+ * <p>
+ * - begin(): Opens a new transaction block. Transaction blocks can be nested; a
+ * begin() can be issued inside another existing block. Note that no transaction
+ * is in progress before the first begin() call.
+ * <p>
+ * - rollback(): Undoes every stack operation issued in the current transaction
+ * block, and closes the block. Returns true if successful, or false if no
+ * transaction is in progress.
+ * <p>
+ * - commit(): commits every change in the stack. Returns true if commit is
+ * successful or false if commit is not successful.
+ * <p>
+ * Stack is implemented using arrays only and it is
+ * generic.
+ *
+ */
 public class TransactionalStack<T> {
 	private T[] stack;
 	private int top = -1;
@@ -44,7 +73,7 @@ public class TransactionalStack<T> {
 		}
 		return null;
 	}
-	
+
 	public int getSize() {
 		return size;
 	}
@@ -72,44 +101,44 @@ public class TransactionalStack<T> {
 
 		@SuppressWarnings("unchecked")
 		public void begin() {
-			previousState = (T[]) new Object[top+1];
-			for(int i = 0; i < previousState.length; i++)
+			previousState = (T[]) new Object[top + 1];
+			for (int i = 0; i < previousState.length; i++)
 				previousState[i] = stack[i];
 			previousTransaction = currentTransaction;
 			currentTransaction = this;
 		}
-		
+
 		public boolean commit() {
-			if(isCurrentTransaction()) {
+			if (isCurrentTransaction()) {
 				currentTransaction = previousTransaction;
 				return true;
 			}
 			return false;
 		}
-		
+
 		public boolean rollback() {
-			if(isCurrentTransaction() && stack != null) {
+			if (isCurrentTransaction() && stack != null) {
 				stack = previousState;
 				currentTransaction = previousTransaction;
 				top = stack.length - 1;
-				size = top+1;
+				size = top + 1;
 				return true;
 			}
 			return false;
 		}
-		
+
 		public boolean isCurrentTransaction() {
-			if(currentTransaction == this)
+			if (currentTransaction == this)
 				return true;
 			return false;
 		}
-		
+
 		public int numberOfPrevTrans() {
-			if(previousTransaction != null) {
+			if (previousTransaction != null) {
 				return previousTransaction.numberOfPrevTrans() + 1;
 			}
 			return 0;
 		}
-		
+
 	}
 }
