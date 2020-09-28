@@ -13,7 +13,7 @@ package solutions;
  * <p>
  * <b>Solution : </b> Solution is same as for problem MarginKLists.
  * <p>
- * <b>Time complexity : </b> O(m+n) 
+ * <b>Time complexity : </b> O(m+n)
  * <p>
  * <b>Space complexity : </b> O(1)
  *
