@@ -23,8 +23,6 @@ public class PalindromeLinkedList {
 			slow = reverseNodes(slow.getNextNode());
 
 		while (headNode != null || slow != null) {
-			System.out.println(headNode.getVal() + " head");
-			System.out.println(slow.getVal() + " from behind");
 			if (headNode.getVal() != slow.getVal())
 				return false;
 			headNode = headNode.getNextNode();
