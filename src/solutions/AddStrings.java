@@ -6,8 +6,12 @@ public class AddStrings {
 		int counterNum1 = num1.length() - 1, counterNum2 = num2.length() - 1;
 		int remainder = 0;
 		while (counterNum1 >= 0 && counterNum2 >= 0) {
-			remainder = appendFirstReturnRemaind(result, detectInt(num1.charAt(counterNum1)),
-					detectInt(num2.charAt(counterNum2)), remainder);
+			remainder = appendFirstReturnRemaind(
+						result, 
+						detectInt(num1.charAt(counterNum1)),
+						detectInt(num2.charAt(counterNum2)), 
+						remainder);
+			
 			counterNum1--;
 			counterNum2--;
 		}
