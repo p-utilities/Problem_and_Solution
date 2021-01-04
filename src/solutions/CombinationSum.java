@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 
 
-//Not good.. need to rethinks 
+//Not good.. need to rethink
 public class CombinationSum {
 
 	public static List<List<Integer>> combinationSum(int[] candidates, int target) {
