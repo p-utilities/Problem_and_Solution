@@ -4,17 +4,17 @@ For each given problem, there is a solution. In this project you can find soluti
 
 ## Problems
 
-- ### Add strings [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddStrings.java)]
+- *Add strings* [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddStrings.java)]
   - Two numbers are given in the form of String. Add those two numbers without transforming String into integer.
-- ### Add to array [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddToArrayForm.java)]
+- **Add to array** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddToArrayForm.java)]
   - Given the array of length n and random number, add those two values. 
     <br>Examle :
     <br>  Array value  = {5, 3, 2}
     <br>  int value    =  2  5  6
     <br>  result value = {7, 8, 8}
-- ### Add two single linked lists [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddTwoNumbers.java)]
+- **Add two single linked lists** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddTwoNumbers.java)]
   - You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
-- ### Atoi integer converter [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AtoiSolution.java)]
+- **Atoi integer converter** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AtoiSolution.java)]
   - Implement atoi which converts a string to an integer.
 - ### Busiest server [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/BusiestServer.java)]
   - You have k servers numbered from 0 to k-1 that are being used to handle multiple requests simultaneously. Each server has infinite
