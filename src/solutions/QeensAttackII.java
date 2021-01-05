@@ -1,4 +1,4 @@
-package daySix;
+package solutions;
 
 import java.util.LinkedList;
 
