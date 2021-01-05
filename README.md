@@ -2,14 +2,44 @@
 
 For each given problem, there is a solution. In this project you can find solutions for some typical problems given in interviews.
 
-## Instalation
+# Table of content
+- [Instalation](#instalation)
+- [Algorithms](#algorithms)
+  + [Sorting algorithms](#sorting)
+  + [Searching algorithms](#searching)
+- [Problems and solutions](#problems)
+
+## Instalation <a name="instalation"></a>
 
 To download and use this repo, copy and paste next bash commant into command line
 ```bash
 $ git clone https://github.com/kakarot94/ProblemAndSolution.git
 ```
 
-## Problems
+## Algorithms <a name="algorithms"></a>
+### Sorting algorithms <a name="sorting"></a>
+
+- **Insertion sort** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/InsertionSort.java)]
+- **Selection sort** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/SelectionSort.java)]
+- **Bubble sort** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/BubbleSort.java)]
+- **Recursive bubble sort** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/RecursiveBubbleSort.java)]
+- **Quick sort** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/QuickSort.java)]
+- **Marge sort** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/MargeSort.java)]
+- **Marge sort II** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/MargeSort2.java)]
+- **Heap sort** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/HeapSort.java)]
+- **Heap sort II** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/HeapSort2.java)]
+- **Heap sort generic** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/sortAlgorithms/HeapSortGeneric.java)]
+- **Counting sort simple** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/CountingSortSimple.java)]
+- **Counting sort char** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/CountingSortChar.java)]
+  
+### Searching algorithms <a name="searching"></a>
+
+- **Binary search** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/searchAlgorithms/BinarySearch.java)]
+- **Recursive binary search** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/searchAlgorithms/RecursiveBinarySearch.java)]
+- **Jump search** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/searchAlgorithms/JumpSearch.java)]
+- **Recursive jump search** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/searchAlgorithms/RecursiveJumpSearch.java)]
+
+## Problems <a name="problems"></a>
 
 - **Add strings** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddStrings.java)]
   - Two numbers are given in the form of String. Add those two numbers without transforming String into integer.
@@ -69,14 +99,17 @@ $ git clone https://github.com/kakarot94/ProblemAndSolution.git
   - Given the array of integers and one K number, find subarray where product of that array is less then K.
 - **The 3 sum** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/The3Sum.java)]
   - Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
-- **** [[look me up]()]
-  -
-- **** [[look me up]()]
-  -
-- **** [[look me up]()]
-  -
-- **** [[look me up]()]
-  -
-- **** [[look me up]()]
-  -
-  
+- **Devide number** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/DevideNumber.java)]
+  - Given the number n, devide that number without using devidor.
+- **Devide two numbers** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/DivideTwoNumbers.java)]
+  - Given the two numbers, devide them without using devidor.
+- **Addition of submatrix** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AdditionOfSubmatrix.java)]
+  - Given a matrix C of size N x M. You are given position of submatrix as X1, Y1 and X2, Y2 inside the matrix. Find the sum of all elements inside that submatrix.
+- **Encryption** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/Encryption.java)]
+  - Do some encryption work xD
+- **Find the fine** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/FindTheFine.java)]
+  - Given an array of penalties P, an array of car numbers C, and also the date D. The task is to find the total fine which will be collected on the given date. Fine is collected from odd-numbered cars on even dates and vice versa.
+- **Kth smallest element** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/KthSmallestElement.java)]
+  - Given an array arr[] and a number K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+- **Qeens atack II** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/QeensAttackII.java)]
+  -  You will be given a square chess board with one queen and a number of obstacles placed on it. Determine how many squares the queen can attack. 
