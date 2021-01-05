@@ -2,6 +2,13 @@
 
 For each given problem, there is a solution. In this project you can find solutions for some typical problems given in interviews.
 
+## Instalation
+
+To download and use this repo, copy and paste next bash commant into command line
+```bash
+$ git clone https://github.com/kakarot94/ProblemAndSolution.git
+```
+
 ## Problems
 
 - **Add strings** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/AddStrings.java)]
