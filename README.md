@@ -30,5 +30,46 @@ For each given problem, there is a solution. In this project you can find soluti
   - Depending on the arrangement of a given sequence of numbers and a given number of possible shifts, determine the length of the longest substring that can be obtained with certain shifts.
 - **Integer extractor** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/IntegerExtractor.java)]
   - Given a string containing none, one or many numbers, find all numbers in that string. Numbers is non-negative and can be divided by any character.
-- **Is given String poliandrom** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/LongStringPalindrome.java)]
-  - Check if the String is poliandrom
+- **Is given String palindrom** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/LongStringPalindrome.java)]
+  - Check if the String is palindrom
+- **Longest palindrom** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/LongestPalindrom.java)]
+  - Given a String s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+- **Marging lists** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/MargingLists.java)]
+  - Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
+- **Madian of two sorted arrays** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/MedianOfTwoSortedArrays.java)]
+  - Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+- **Marging K lists** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/MergingKLists.java)]
+  - You are given an array of k linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it.
+- **Palindrome number** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/PalindromeNumber.java)]
+  - Given a integer n, find if that integer is palindrome without converting that integer into string.
+- **Multiply strigs** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/MultiplyStrings.java)]
+  - Given two string representations of numbers, multiply them without converting them into int.
+- **Palindrom linked list** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/PalindromeLinkedList.java)]
+  - Check whether given linked list is palindrome.
+- **Parking system design** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/ParkingSystem.java)]
+  - Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size.
+- **Increment array** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/PlusOne.java)]
+  - Given the array that represents number, increment that array by one.
+- **Reverse integer** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/ReverseInteger.java)]
+  - Given a 32-bit signed integer, reverse digits of an integer.
+- **Reverse K nodes in linked list** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/ReverseKNodes.java)]
+  - Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
+- **Shortest unsorted continuous array** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/ShortestUnsortedContinuousSubarray.java)]
+  - Given the array of numbers, find shortest unsorted continuous array. Remember, one element is sorted, that means result can eather be 0 or greater then 1.
+- **Special position** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/SpecialPosition.java)]
+  - Given the two dimensional array, find special position in that array.
+- **Subarray product less then K** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/SubarrayProductLessThenK.java)]
+  - Given the array of integers and one K number, find subarray where product of that array is less then K.
+- **The 3 sum** [[look me up](https://github.com/kakarot94/ProblemAndSolution/blob/master/src/solutions/The3Sum.java)]
+  - Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+- **** [[look me up]()]
+  -
+- **** [[look me up]()]
+  -
+- **** [[look me up]()]
+  -
+- **** [[look me up]()]
+  -
+- **** [[look me up]()]
+  -
+  
