@@ -1,4 +1,4 @@
-package dayThree;
+package solutions;
 
 import java.util.Arrays;
 import java.util.Scanner;
