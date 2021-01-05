@@ -46,12 +46,6 @@ public class LongStringPalindrome {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(0 + 'a');
-		System.out.println(0 + 'z');
-		System.out.println(0 + 'A');
-		System.out.println(0 + 'Z');
-		System.out.println("" + Character.isLetter('1'));
-
 		System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
 
 	}
