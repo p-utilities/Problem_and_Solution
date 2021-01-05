@@ -13,7 +13,6 @@ public class SpecialPosition {
 		for (int i = 0; i < mat.length; i++) {
 			for (int j = 0; j < mat[0].length; j++) {
 				if (mat[i][j] == 1) {
-					System.out.println("uso");
 					if (onesI.contains(i)) {
 						if(result != 0)
 							result--;
@@ -30,7 +29,6 @@ public class SpecialPosition {
 					onesI.add(i);
 					onesJ.add(j);
 					result++;
-					System.out.println("proso");
 				}
 			}
 		}
@@ -44,8 +42,8 @@ public class SpecialPosition {
 		s[0][1] = 0;
 		s[1][0] = 0;
 		s[1][1] = 0;
-//		s[2][0] = 1;
-//		s[2][1] = 0;
+		s[2][0] = 1;
+		s[2][1] = 0;
 		System.out.println(numSpecial(s));
 	}
 }
