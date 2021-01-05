@@ -1,4 +1,4 @@
-package dayOne.challenge;
+package solutions;
 
 public class DevideNumber {
 	private static double result = 0;
