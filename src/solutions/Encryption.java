@@ -1,4 +1,4 @@
-package daySix;
+package solutions;
 
 public class Encryption {
 	private Encryption() {
