@@ -1,4 +1,4 @@
-package dayThree;
+package solutions;
 
 public class CountingSortChar {
 	private CountingSortChar() {
